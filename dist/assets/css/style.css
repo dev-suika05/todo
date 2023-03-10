@@ -1,0 +1,1 @@
+.p-todo__main{display:flex}.p-todo__main-list{width:400px;min-height:100px;padding:20px 0;background-color:#add8e6}.p-todo__main-list.-complete{background-color:#d3d3d3}.p-todo__main-list-item{width:85%;margin:0 auto 10px;padding:12px;border-radius:8px;background-color:#fff;box-shadow:1px,1px,1px,#000}.p-todo__main-list-item:last-of-type{margin-bottom:0}

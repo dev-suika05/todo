@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todo App</title>
+  
+  <script type="module" crossorigin src="./assets/js/script.js"></script>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <div class="p-todo">
+    <div class="p-todo__title">
+      <h1>
+        ToDo List
+      </h1>
+    </div>
+    <div class="p-todo__add">
+      <form class="p-todo__add-content">
+        <div class="p-todo__add-content-input">
+          <input id="todo_text" type="text" required data-input>
+        </div>
+        <div class="p-todo__add-content-btn" data-btn>
+          <button id="todo_btn" type="button">
+            追加
+          </button>
+        </div>
+      </form>
+    </div>
+    <div class="p-todo__main">
+      <div class="p-todo__main-list" data-list>
+        
+      </div>
+      <div class="p-todo__main-list -complete" data-complete>
+        
+      </div>
+    </div>
+  </div>
+  
+</body>
+
+</html>
